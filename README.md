@@ -35,4 +35,4 @@ npm start
 ```
 
 
-![screenshot](https://github.com/webdeziner/electron-sms-app/screenshot.png "App screenshot"
+![screenshot](https://github.com/webdeziner/electron-sms-app/screenshot.PNG)
