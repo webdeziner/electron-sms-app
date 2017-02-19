@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Desktop SMS with Twilio!</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="window">
+      <header class="toolbar toolbar-header">
+        <h1 class="title">Desktop SMS</h1>
+      </header>
+      <div class="window-content">
+        <div class="padded-more">
+          <div class="alert error" id="error">
+            Unable to send SMS
+          </div><!-- /.alert .error -->
+          <div class="alert success" id="success">
+            SMS successfully sent
+          </div><!-- /.alert .success -->
+          <div class="alert warning" id="warning">
+            Phone number and message must have values
+          </div><!-- /.alert .success -->
+          <div class="alert info" id="info">
+            Sending SMS....
+          </div><!-- /.alert .success -->
+          <form id="sms">
+            <div class="form-group">
+              <label>Phone number</label>
+              <input type="text" id="phone_number" class="form-control" value="" placeholder="Phone number">
+            </div><!-- /.form-group -->
+            <div class="form-group">
+              <label>Message</label>
+              <textarea id="message" class="form-control" rows="3"></textarea>
+            </div><!-- /.form-group -->
+            <div class="form-actions">
+              <button id="reset" class="btn btn-form btn-default">Cancel</button>
+              <button id="submit" type="submit" class="btn btn-form btn-primary">SEND!</button>
+            </div><!-- /.form-actions -->
+          </form>
+        </div><!-- /.padded-more -->
+      </div><!-- /.window-content -->
+    </div><!-- /.window -->
+  </body>
+
+  <script>
+    require('./renderer.js')
+  </script>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "electron-sms-app",
+  "version": "1.0.0",
+  "description": "A minimal Electron and Twilio application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/webdeziner/electron-sms-app",
+  "keywords": [
+    "Electron",
+    "Twilio",
+    "demo",
+    "sms"
+  ],
+  "author": "Victor Elisson",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
