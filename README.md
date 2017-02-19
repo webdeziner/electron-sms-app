@@ -24,7 +24,7 @@ Open renderer.js and edit:
 
 var accountSid = ''; // Your Account SID from www.twilio.com/console
 
-var authToken = '';   // Your Auth Token from www.twilio.com/console 
+var authToken = '';   // Your Auth Token from www.twilio.com/console
 
 var from_phone_number = ''; // From a valid Twilio number
 
@@ -33,3 +33,6 @@ var from_phone_number = ''; // From a valid Twilio number
 # Run the app
 npm start
 ```
+
+
+![screenshot](https://github.com/webdeziner/electron-sms-app/screenshot.png "App screenshot"
